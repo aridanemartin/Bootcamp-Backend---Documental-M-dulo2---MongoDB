@@ -68,8 +68,7 @@ db.listingsAndReviews.find(
 </code>
 </pre>
 
-- Estamos entre ir a Barcelona o a Portugal, los dos destinos nos valen, peeero... queremos que el precio
-- nos salga baratito (50 $), y que tenga buen rating de reviews
+- Estamos entre ir a Barcelona o a Portugal, los dos destinos nos valen, peeero... queremos que el precio nos salga baratito (50 $), y que tenga buen rating de reviews
 
 <pre>
 <code>
@@ -95,9 +94,9 @@ db.listingsAndReviews.aggregate(
 </pre>
 
 - Queremos mostrar los pisos que hay en España, y los siguiente campos:
-- Nombre.
-- De que ciudad (no queremos mostrar un objeto, solo el string con la ciudad)
-- El precio (no queremos mostrar un objeto, solo el campo de precio)
+  - Nombre.
+  - De que ciudad (no queremos mostrar un objeto, solo el string con la ciudad)
+  - El precio (no queremos mostrar un objeto, solo el campo de precio)
 
 <pre>
 <code>
@@ -190,9 +189,9 @@ db.listingsAndReviews.aggregate([
 </pre>
 
 - Queremos mostrar el top 5 de apartamentos más caros en España, y sacar los siguentes campos:
-- - Nombre.
-- - Ciudad.
-- - Amenities, pero en vez de un array, un string con todos los amenities.
+  - Nombre.
+  - Ciudad.
+  - Amenities, pero en vez de un array, un string con todos los amenities.
 
 <pre>
 <code>
